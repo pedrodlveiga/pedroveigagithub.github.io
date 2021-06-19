@@ -1,0 +1,80 @@
+body{
+    background-color: #93b9ce;
+}
+
+.link-nav-top{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(214, 218, 230);
+    text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+}
+
+#nome-titulo{
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+
+#foto-perfil{
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            
+}
+
+.headings{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: rgb(37, 75, 170) 0.1em 0.1em 0.2em
+}
+
+
+#texto-sobre{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.item-lista01, .item-lista02{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item-lista03, .item-lista04{
+
+    font-family: 'PT Serif', serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.item-lista05{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.palavras-destaque{
+    font-size: 23px;
+    color: #104097;
+
+}
+
+.frase-destaque{
+    font-weight: 700;
+    color:#313238
+}
+
+.link-nav-bottom{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(220, 206, 224);
+    text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+}
