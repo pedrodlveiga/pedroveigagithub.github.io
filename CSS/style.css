@@ -1,5 +1,8 @@
 body{
     background-color: #93b9ce;
+    background-image: linear-gradient(to bottom right, #5d96b4, rgb(205, 223, 233));
+    margin: 20px;
+  
 
 }
 
@@ -92,6 +95,7 @@ body{
 }
 
 .div-sobre{
+    padding-top: 20px;
     margin-left: 310px;
     
 }
