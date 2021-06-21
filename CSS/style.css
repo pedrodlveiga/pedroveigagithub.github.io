@@ -1,0 +1,109 @@
+body{
+    background-color: #93b9ce;
+    background-image: linear-gradient(to bottom right, #5d96b4, rgb(205, 223, 233));
+    margin: 20px;
+  
+
+}
+
+.link-nav-top{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(8, 65, 92);
+    text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+}
+
+#nome-titulo{
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
+    
+}
+     
+.headings{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-shadow: rgb(37, 75, 170) 0.1em 0.1em 0.2em
+}
+
+
+#texto-sobre{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.item-lista01, .item-lista02{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item-lista03, .item-lista04{
+
+    font-family: 'PT Serif', serif;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.item-lista05{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.palavras-destaque{
+    font-size: 23px;
+    color: #104097;
+
+}
+
+.frase-destaque{
+    font-weight: 700;
+    color:#313238
+}
+
+.link-nav-bottom{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(8, 65, 92);
+    text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+}
+
+.meu-nome{
+    text-align: center;
+
+}
+
+.div-foto-sobre{
+    height: 300px;
+}
+
+#foto-perfil{
+    float:left;
+    height: 280px;
+    width: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.div-sobre{
+    padding-top: 20px;
+    margin-left: 310px;
+    
+}
+
+.div-habilidades{
+    margin-top: 40px;
+}
+
+ul li:nth-child(odd){
+    background-color: rgb(202, 160, 153);
+}
