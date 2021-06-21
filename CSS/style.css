@@ -99,3 +99,7 @@ body{
 .div-habilidades{
     margin-top: 40px;
 }
+
+ul li:nth-child(odd){
+    background-color: rgb(202, 160, 153);
+}
