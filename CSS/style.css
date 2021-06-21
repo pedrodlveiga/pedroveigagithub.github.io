@@ -1,12 +1,13 @@
 body{
     background-color: #93b9ce;
+
 }
 
 .link-nav-top{
     font-family: 'Cabin', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(214, 218, 230);
+    color: rgb(8, 65, 92);
     text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
 }
 
@@ -19,13 +20,7 @@ body{
     text-shadow: black 0.1em 0.1em 0.2em
     
 }
-
-#foto-perfil{
-    border-radius: 50%;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
-            
-}
-
+     
 .headings{
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
@@ -38,7 +33,7 @@ body{
     font-family: 'PT Serif', serif;
     font-size: 20px;
     font-weight: 500;
-
+   
 }
 
 .item-lista01, .item-lista02{
@@ -75,6 +70,32 @@ body{
     font-family: 'Cabin', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(220, 206, 224);
+    color: rgb(8, 65, 92);
     text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+}
+
+.meu-nome{
+    text-align: center;
+
+}
+
+.div-foto-sobre{
+    height: 300px;
+}
+
+#foto-perfil{
+    float:left;
+    height: 280px;
+    width: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.div-sobre{
+    margin-left: 310px;
+    
+}
+
+.div-habilidades{
+    margin-top: 40px;
 }
