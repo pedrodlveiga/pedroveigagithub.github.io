@@ -1,8 +1,10 @@
 body{
+    width: 1024px;
+    height: 768px;
+    margin: 20px;
     background-color: #93b9ce;
     background-image: linear-gradient(to bottom right, #5d96b4, rgb(205, 223, 233));
-    margin: 20px;
-  
+    
 
 }
 
@@ -84,6 +86,7 @@ body{
 
 .div-foto-sobre{
     height: 300px;
+    
 }
 
 #foto-perfil{
@@ -92,17 +95,21 @@ body{
     width: auto;
     padding: 10px;
     background-color: antiquewhite;
+    position: absolute;
+    
 }
 
 .div-sobre{
     padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 310px;
-    
+    float: left;
+    position: relative;
 }
 
 .div-habilidades{
     margin-top: 40px;
-}
+    
 
 ul li:nth-child(odd){
     background-color: rgb(202, 160, 153);
