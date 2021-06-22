@@ -87,9 +87,10 @@ body{
 .div-foto-sobre{
     height: 300px;
     
+    
 }
 
-#foto-perfil{
+.foto-perfil{
     float:left;
     height: 280px;
     width: auto;
@@ -103,14 +104,16 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 310px;
-    float: left;
-    position: relative;
+  
+    
 }
 
 .div-habilidades{
     margin-top: 40px;
     
+}
+    
 
 ul li:nth-child(odd){
-    background-color: rgb(202, 160, 153);
+    background-color: rgb(103, 204, 20);
 }
