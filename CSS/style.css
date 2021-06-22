@@ -1,6 +1,4 @@
 body{
-    width: 1024px;
-    height: 768px;
     margin: 20px;
     background-color: #93b9ce;
     background-image: linear-gradient(to bottom right, #5d96b4, rgb(205, 223, 233));
@@ -16,6 +14,11 @@ body{
     text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
 }
 
+.link-nav-top:hover{
+    color:antiquewhite;
+
+}
+
 #nome-titulo{
     font-family: 'Cabin', sans-serif;
     font-size: 40px;
@@ -23,7 +26,7 @@ body{
     text-transform: uppercase;
     color: white; 
     text-shadow: black 0.1em 0.1em 0.2em
-    
+        
 }
      
 .headings{
@@ -77,35 +80,39 @@ body{
     text-transform: uppercase;
     color: rgb(8, 65, 92);
     text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
+    display:inline-block;
+}
+
+.link-nav-bottom:hover{
+    color:antiquewhite;
+
 }
 
 .meu-nome{
     text-align: center;
+    display: inline-block;
 
-}
-
-.div-foto-sobre{
-    height: 300px;
-    
-    
 }
 
 .foto-perfil{
-    float:left;
     height: 280px;
-    width: auto;
+    width: 280px;
     padding: 10px;
     background-color: antiquewhite;
-    position: absolute;
-    
+   
+}
+
+.div-foto{
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
 }
 
 .div-sobre{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 310px;
-  
-    
+    padding-top: 10px;
+    padding-bottom: 60px;
+
 }
 
 .div-habilidades{
@@ -113,7 +120,6 @@ body{
     
 }
     
-
 ul li:nth-child(odd){
     background-color: rgb(103, 204, 20);
 }
