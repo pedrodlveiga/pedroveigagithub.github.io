@@ -80,7 +80,7 @@ body{
     text-transform: uppercase;
     color: rgb(8, 65, 92);
     text-shadow: rgb(26, 25, 25) 0.1em 0.1em 0.2em;
-    display:inline-block;
+    display:inline;
 }
 
 .link-nav-bottom:hover{
@@ -90,7 +90,7 @@ body{
 
 .meu-nome{
     text-align: center;
-    display: inline-block;
+    display: inline;
 
 }
 
